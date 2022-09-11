@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.attribution {
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 50px;
+}
+
+.card {
+    position: relative;
+    width: 350px;
+    height: 600px;
+    background: hsl(216, 50%, 16%);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 50px 10px 15px hsl(217, 55%, 10%)    ;
+}
+
+.nft-image {
+    width: 302px;
+    padding: 24px 24px 20px 24px;
+    border-radius: 33px;
+}
+
+.overlay {
+    position: absolute;
+    width: 302px;
+    height: 302px;
+    top: 24px;
+    left: 24px;
+    margin: 0;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 11px;
+}
+
+.overlay:hover {
+    background: hsla(178, 100%, 50%,0.5);
+    opacity: 1;
+}
+
+
+h1 {
+    margin: 0 24px 18px 24px;
+    font-size: 22px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+p {
+    margin: 0 24px 22px 24px;
+    padding: 0;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    line-height: 26px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 0 24px 20px 24px;
+}
+
+.value {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.container-paragraph {
+    padding: 0;
+    margin: 0 0 0 7px;
+    font-size: 16px;
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+.time-left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.time-left-paragraph {
+    padding: 0;
+    margin: 0 0 0 7px;
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+hr {
+    border: 0.5px solid hsl(215, 32%, 27%);
+    background: hsl(215, 32%, 27%);
+    width: calc(100% - 50px);
+    margin: 0 auto;
+}
+
+.name {
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+}
+
+.white-text {
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+}
+
+.white-text:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.creator {
+    margin: 16px 24px 0 24px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 32px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-right: 16px;
+}
