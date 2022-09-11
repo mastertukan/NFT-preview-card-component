@@ -53,6 +53,7 @@ body {
 .overlay:hover {
     background: hsla(178, 100%, 50%,0.5);
     opacity: 1;
+    transition: all 0.3s;
 }
 
 
@@ -66,6 +67,7 @@ h1 {
 h1:hover {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
+    transition: all 0.3s;
 }
 
 p {
@@ -132,6 +134,7 @@ hr {
 .white-text:hover {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
+    transition: all 0.3s;
 }
 
 .creator {
